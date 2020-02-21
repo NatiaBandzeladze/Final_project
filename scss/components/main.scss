@@ -6,9 +6,27 @@
 @import "../modules/classes.scss";
 
 
-
-.sticky{
-    img{
-        height: 100px;
+header{
+    width: 100%;
+    .sticky{
+        @extend %sticky;
+        @extend %flex;
+        @include d-flex (space-between,center);
+        z-index: 20;
+        img{
+            height: 40px;
+        }
+        .navbar{
+            ul{
+            @extend %flex;
+            @include d-flex (space-between,center);
+            }
+            li{
+                margin:$margin-right50;
+                a{
+                    color: #ffffff;
+                }
+            }
+        }
     }
 }

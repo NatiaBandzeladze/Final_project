@@ -127,8 +127,45 @@ a {
 * {
   box-sizing: border-box; }
 
-.sticky img {
-  height: 100px; }
+header .sticky {
+  position: sticky;
+  top: 0;
+  height: 45px;
+  background-color: #184FA3;
+  padding: 14px 1px;
+  text-align: center;
+  font-size: 12px; }
+
+header .sticky, header .sticky .navbar ul {
+  display: flex; }
+
+header {
+  width: 100%; }
+  header .sticky {
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20; }
+    header .sticky img {
+      height: 40px; }
+    header .sticky .navbar ul {
+      justify-content: space-between;
+      align-items: center; }
+    header .sticky .navbar li {
+      margin: 50px; }
+      header .sticky .navbar li a {
+        color: #ffffff; }
+
+header .sticky {
+  position: sticky;
+  top: 0;
+  height: 45px;
+  background-color: #184FA3;
+  padding: 14px 1px;
+  text-align: center;
+  font-size: 12px; }
+
+header .sticky, header .sticky .navbar ul {
+  display: flex; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -173,5 +210,30 @@ a {
 * {
   box-sizing: border-box; }
 
-.sticky img {
-  height: 100px; }
+header .sticky {
+  position: sticky;
+  top: 0;
+  height: 45px;
+  background-color: #184FA3;
+  padding: 14px 1px;
+  text-align: center;
+  font-size: 12px; }
+
+header .sticky, header .sticky .navbar ul {
+  display: flex; }
+
+header {
+  width: 100%; }
+  header .sticky {
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20; }
+    header .sticky img {
+      height: 40px; }
+    header .sticky .navbar ul {
+      justify-content: space-between;
+      align-items: center; }
+    header .sticky .navbar li {
+      margin: 50px; }
+      header .sticky .navbar li a {
+        color: #ffffff; }
