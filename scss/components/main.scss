@@ -1,3 +1,14 @@
 @import "../basic/reset.scss";
 @import "../modules/mixins.scss";
 @import "../modules/veriables.scss";
+@import "../basic/fonts.scss";
+@import "./pages.scss";
+@import "../modules/classes.scss";
+
+
+
+.sticky{
+    img{
+        height: 100px;
+    }
+}
