@@ -21,5 +21,7 @@
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.13.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "alk-sanet": "^1.0.0"
+  }
 }

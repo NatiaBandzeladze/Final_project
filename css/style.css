@@ -131,7 +131,7 @@ header .sticky {
   position: sticky;
   top: 0;
   height: 45px;
-  background-color: #184FA3;
+  background-color: #EAECEE;
   padding: 14px 1px;
   text-align: center;
   font-size: 12px; }
@@ -153,13 +153,13 @@ header {
     header .sticky .navbar li {
       margin: 50px; }
       header .sticky .navbar li a {
-        color: #ffffff; }
+        color: #283593; }
 
 header .sticky {
   position: sticky;
   top: 0;
   height: 45px;
-  background-color: #184FA3;
+  background-color: #EAECEE;
   padding: 14px 1px;
   text-align: center;
   font-size: 12px; }
@@ -214,7 +214,7 @@ header .sticky {
   position: sticky;
   top: 0;
   height: 45px;
-  background-color: #184FA3;
+  background-color: #EAECEE;
   padding: 14px 1px;
   text-align: center;
   font-size: 12px; }
@@ -236,4 +236,4 @@ header {
     header .sticky .navbar li {
       margin: 50px; }
       header .sticky .navbar li a {
-        color: #ffffff; }
+        color: #283593; }
