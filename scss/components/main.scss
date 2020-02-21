@@ -5,28 +5,33 @@
 @import "./pages.scss";
 @import "../modules/classes.scss";
 
-
-header{
-    width: 100%;
-    .sticky{
-        @extend %sticky;
-        @extend %flex;
-        @include d-flex (space-between,center);
-        z-index: 20;
-        img{
-            height: 40px;
-        }
-        .navbar{
-            ul{
+body{
+    font-family: "ALK Sanet", sans-serif;
+    header{
+        width: 100%;
+        .sticky{
+            @extend %sticky;
             @extend %flex;
             @include d-flex (space-between,center);
+            z-index: 20;
+            img{
+                height: 40px;
             }
-            li{
-                margin:$margin-right50;
-                a{
-                    color: #283593;
+            .navbar{
+                ul{
+                @extend %flex;
+                @include d-flex (space-between,center);
+                }
+                li{
+                    margin:$margin-right50;
+                    a{
+                        color: #283593;
+                    }
                 }
             }
         }
+    }
+    section{
+        font-family: "ALK Sanet", sans-serif;
     }
 }
