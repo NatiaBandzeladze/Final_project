@@ -131,7 +131,7 @@ body header .sticky {
   position: sticky;
   top: 0;
   height: 45px;
-  background-color: #EAECEE;
+  background-color: #283593;
   padding: 14px 1px;
   text-align: center;
   font-size: 12px; }
@@ -155,7 +155,7 @@ body {
       body header .sticky .navbar li {
         margin: 50px; }
         body header .sticky .navbar li a {
-          color: #283593; }
+          color: #fff; }
   body section {
     font-family: "ALK Sanet", sans-serif; }
 
@@ -163,7 +163,7 @@ body header .sticky {
   position: sticky;
   top: 0;
   height: 45px;
-  background-color: #EAECEE;
+  background-color: #283593;
   padding: 14px 1px;
   text-align: center;
   font-size: 12px; }
@@ -218,7 +218,7 @@ body header .sticky {
   position: sticky;
   top: 0;
   height: 45px;
-  background-color: #EAECEE;
+  background-color: #283593;
   padding: 14px 1px;
   text-align: center;
   font-size: 12px; }
@@ -242,6 +242,6 @@ body {
       body header .sticky .navbar li {
         margin: 50px; }
         body header .sticky .navbar li a {
-          color: #283593; }
+          color: #fff; }
   body section {
     font-family: "ALK Sanet", sans-serif; }
