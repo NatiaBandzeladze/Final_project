@@ -7,3 +7,11 @@
     align-items: $vertical;
 }
 
+// @mixin google-font ($Montserrat){
+//     @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+// }
+
+@mixin google-font($family) {
+    @import url("http://fonts.googleapis.com/css?family=#{$family}");
+  }
+

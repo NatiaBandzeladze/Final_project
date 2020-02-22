@@ -1,21 +1,22 @@
 @import "../basic/reset.scss";
 @import "../modules/mixins.scss";
 @import "../modules/veriables.scss";
-@import "../basic/fonts.scss";
 @import "./pages.scss";
 @import "../modules/classes.scss";
 
 body{
-    font-family: "ALK Sanet", sans-serif;
+    // font-family: "ALK Sanet";
+    // @include google-font("Montserrat");
+    @include google-font("Droid Sans");
     header{
         width: 100%;
         .sticky{
             @extend %sticky;
             @extend %flex;
-            @include d-flex (space-between,center);
+            @include d-flex (flex-start,center);
             z-index: 20;
             img{
-                height: 40px;
+                height: 50px;
             }
             .navbar{
                 ul{
@@ -23,8 +24,11 @@ body{
                 @include d-flex (space-between,center);
                 }
                 li{
-                    margin:$margin-right50;
+                    margin-right:$margin-right20;
+                    :last-child{
+                        margin-right: 0;}
                     a{
+                        // font-family: "ALK Sanet";
                         color:#fff;
                     }
                 }
