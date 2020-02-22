@@ -36,6 +36,11 @@ body{
         }
     }
     section{
-        font-family: "ALK Sanet", sans-serif;
+        margin-top: $margin-top100;
+        .circles{
+            @extend %flex;
+            @include d-flex (space-around,center);
+            
+        }
     }
 }

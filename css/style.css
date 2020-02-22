@@ -138,7 +138,7 @@ body header .sticky {
   text-align: center;
   font-size: 18px; }
 
-body header .sticky, body header .sticky .navbar ul {
+body header .sticky, body header .sticky .navbar ul, body section .circles {
   display: flex; }
 
 body { }
@@ -160,7 +160,10 @@ body { }
         body header .sticky .navbar li a {
           color: #fff; }
   body section {
-    font-family: "ALK Sanet", sans-serif; }
+    margin-top: 100px; }
+    body section .circles {
+      justify-content: space-around;
+      align-items: center; }
 
 body header .sticky {
   position: sticky;
@@ -171,7 +174,7 @@ body header .sticky {
   text-align: center;
   font-size: 18px; }
 
-body header .sticky, body header .sticky .navbar ul {
+body header .sticky, body header .sticky .navbar ul, body section .circles {
   display: flex; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -226,7 +229,7 @@ body header .sticky {
   text-align: center;
   font-size: 18px; }
 
-body header .sticky, body header .sticky .navbar ul {
+body header .sticky, body header .sticky .navbar ul, body section .circles {
   display: flex; }
 
 body { }
@@ -248,4 +251,7 @@ body { }
         body header .sticky .navbar li a {
           color: #fff; }
   body section {
-    font-family: "ALK Sanet", sans-serif; }
+    margin-top: 100px; }
+    body section .circles {
+      justify-content: space-around;
+      align-items: center; }
