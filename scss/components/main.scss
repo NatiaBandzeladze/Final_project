@@ -7,6 +7,19 @@
 
 body{
     section{
+        .closure-h5{
+            @extend %background-opacity;
+            font-size: $font-size-biggest;
+            margin-bottom: $margin-bottom20;
+            color: #154360;
+        }
+        .closure-p{
+            background-color: grey;
+            font-size: $font-size-medium;
+        }
+        
+    }
+    section{
         margin-top: $margin-top100;
         .circles{
             @extend %flex;

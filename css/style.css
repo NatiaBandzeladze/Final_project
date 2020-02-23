@@ -141,6 +141,11 @@ body header .sticky {
 body header .sticky, body header .sticky .navbar ul, body section .circles {
   display: flex; }
 
+body section .closure-h5 {
+  background-color: #F2F3F4;
+  opacity: 0,5;
+  max-width: fit-content; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -195,6 +200,11 @@ body header .sticky {
 
 body header .sticky, body header .sticky .navbar ul, body section .circles {
   display: flex; }
+
+body section .closure-h5 {
+  background-color: #F2F3F4;
+  opacity: 0,5;
+  max-width: fit-content; }
 
 body { }
   body header {
@@ -227,6 +237,15 @@ body { }
       body header .burger {
         display: none; } }
 
+body section .closure-h5 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #154360; }
+
+body section .closure-p {
+  background-color: grey;
+  font-size: 18px; }
+
 body section {
   margin-top: 100px; }
   body section .circles {
@@ -246,6 +265,11 @@ body header .sticky {
 
 body header .sticky, body header .sticky .navbar ul, body section .circles {
   display: flex; }
+
+body section .closure-h5 {
+  background-color: #F2F3F4;
+  opacity: 0,5;
+  max-width: fit-content; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -301,6 +325,11 @@ body header .sticky {
 
 body header .sticky, body header .sticky .navbar ul, body section .circles {
   display: flex; }
+
+body section .closure-h5 {
+  background-color: #F2F3F4;
+  opacity: 0,5;
+  max-width: fit-content; }
 
 body { }
   body header {
