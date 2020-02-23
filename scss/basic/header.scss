@@ -1,0 +1,64 @@
+@import "./reset.scss";
+@import "../modules/veriables.scss";
+@import "../modules/classes.scss";
+@import "../modules/mixins.scss";
+
+
+
+
+
+
+
+body{
+    // font-family: "ALK Sanet";
+    // @include google-font("Montserrat");
+    @include google-font("Droid Sans");
+    header{
+        width: 100%;
+        .sticky{
+            @extend %sticky;
+            @extend %flex;
+            @include d-flex (flex-start,center);
+            z-index: 20;
+            img{
+                height: 50px;
+            }
+            .navbar{
+                ul{
+                @extend %flex;
+                @include d-flex (space-between,center);
+                }
+                li{
+                    margin-right:$margin-right20;
+                    :last-child{
+                        margin-right: 0;}
+                    a{
+                        // font-family: "ALK Sanet";
+                        color:#fff;
+                    }
+                }
+            }
+        }
+        .burger{
+            .blue-logo{
+                img{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 50px;
+                    width:30%;
+                }
+            }
+        }
+        @media screen and (max-width: 500px){
+            .sticky{
+                display: none;
+            }
+        }
+        @media screen and (min-width: 500px) {
+            .burger{
+                display: none;
+            }
+        }
+    }
+}
