@@ -50,6 +50,9 @@ body{
                 }
             }
         }
+        .bsolute-burger{
+            @include p-absolute (0,50px);
+        }
         @media screen and (max-width: 500px){
             .sticky{
                 display: none;

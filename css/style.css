@@ -228,6 +228,9 @@ body { }
       margin-right: auto;
       height: 50px;
       width: 30%; }
+    body header .bsolute-burger {
+      top: 0;
+      left: 50px; }
     @media screen and (max-width: 500px) {
       body header .sticky {
         display: none; } }
@@ -252,9 +255,11 @@ body section {
     align-items: center; }
     body section .circles .circle1 .cirlce2 .circle3 {
       justify-content: center;
-      align-items: center; }
-      body section .circles .circle1 .cirlce2 .circle3 img {
-        width: 35%; }
+      align-items: center;
+      text-align: center;
+      margin-left: 20px; }
+    body section .circles img {
+      width: 50%; }
 
 body header .sticky {
   position: sticky;
@@ -355,6 +360,9 @@ body { }
       margin-right: auto;
       height: 50px;
       width: 30%; }
+    body header .bsolute-burger {
+      top: 0;
+      left: 50px; }
     @media screen and (max-width: 500px) {
       body header .sticky {
         display: none; } }
