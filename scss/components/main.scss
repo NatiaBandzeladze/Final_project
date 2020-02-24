@@ -8,14 +8,16 @@
 body{
     section{
         .closure-h5{
-            @extend %background-opacity;
+            @extend %background;
             font-size: $font-size-biggest;
             margin-bottom: $margin-bottom20;
             color: #154360;
         }
         .closure-p{
+            @extend %background;
             background-color: grey;
             font-size: $font-size-medium;
+            color: #154360
         }
         
     }
@@ -24,8 +26,12 @@ body{
         .circles{
             @extend %flex;
             @include d-flex (space-around,center);
-            img{
-                width: 35%;
+            .circle1 .cirlce2 .circle3{
+                @extend %flex;
+                @include d-flex (center,center);
+                img{
+                    width: 35%;
+                }
             }
         }
     }
