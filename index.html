@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/logo.svg" type="image/gif" sizes="16x16">
     <title>Waste Management</title>
+    <script type="text/javascript" src="javascript/index.js" async></script>
 </head>
 
 <body>
     <header>
         <div class="sticky">
-            <img src="images/logowhite.svg" alt="logo">
+            <img src="images/logowhite.svg" class="img-logo" alt="logo">
             <nav class="navbar">
                 <ul>
                     <li>
@@ -38,24 +39,38 @@
                 </ul>
             </nav>
         </div>
-        <div class="burger absolute-burger">
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    MENU
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="index.html">Home</a>
-                    <a class="dropdown-item" href="about.html">About Us</a>
-                    <a class="dropdown-item" href="landfills.html">Municipal Landfills</a>
-                </div>
-            </div>
-            <div class="blue-logo">
-                <img src="images/logodarkblue.svg" alt="logo-darkblue">
+        <div class="burger">
+            <img src="images/logowhite.svg" class="responsive-logo" alt="logo">
+            <div class="burger-container" onclick="toggleBurgerMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <nav class="navbar-small">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="news.html">News</a>
+                        </li>
+                        <li>
+                            <a href="newsystem.html">New System</a>
+                        </li>
+                        <li>
+                            <a href="donors.html">Donors</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
-    <section>
+    <section class="section-slider">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -122,42 +137,43 @@
             </div>
         </div>
         </div>
-        <section class="container">
-            <div class="news">
-                <div class="box1">
-                    <div class="h6-p">
-                        <h6>“Clean Up the World”</h6>
-                        <p>“The Solid Waste Management Company of Georgia” Ltd joined the annual international campaign
-                            “Clean Up the World”. The annual campaigns “Clean Up the World” and “World Cleaning Day” are
-                            being held during the third week of September.</p>
-                    </div>
-                    <img src="images/clean-up.jpg" alt="clean-up">
-
+    </section>
+    <!-- <section class="container">
+        <div class="news">
+            <div class="box1">
+                <div class="h6-p">
+                    <h6>“Clean Up the World”</h6>
+                    <p>“The Solid Waste Management Company of Georgia” Ltd joined the annual international campaign
+                        “Clean Up the World”. The annual campaigns “Clean Up the World” and “World Cleaning Day” are
+                        being held during the third week of September.</p>
                 </div>
-                <div class="box2">
-                    <img src="images/meeting.jpg" alt="meeting">
-                    <div class="h6-p">
-                        <h6>Building Public Support for the Selection of Waste Disposal Sites</h6>
-                        <p>The meeting was held under “Integrated Solid Waste Management Program II”. Participants of
-                            the meeting were representatives of “Solid Waste Management Company of Georgia”, Consultants
-                            of International Projects and invited Guests.</p>
-                    </div>
-                </div>
-                <div class="box1">
-                    <div class="h6-p">
-                        <h6>New Waste Transfer Station in Borjomi</h6>
-                        <p>Solid Waste Management Company of Georgia” Ltd closed landfill of Borjomi Municipality
-                            according
-                            to EU standards. Waste transfer station has already been constructed in Borjomi.</p>
-                    </div>
-                    <img src="images/transfer.jpg" alt="transfer-station">
+                <img src="images/clean-up.jpg" alt="clean-up">
 
+            </div>
+            <div class="box2">
+                <img src="images/meeting.jpg" alt="meeting">
+                <div class="h6-p">
+                    <h6>Building Public Support for the Selection of Waste Disposal Sites</h6>
+                    <p>The meeting was held under “Integrated Solid Waste Management Program II”. Participants of
+                        the meeting were representatives of “Solid Waste Management Company of Georgia”, Consultants
+                        of International Projects and invited Guests.</p>
                 </div>
             </div>
-        </section>
-        <footer>
+            <div class="box1">
+                <div class="h6-p">
+                    <h6>New Waste Transfer Station in Borjomi</h6>
+                    <p>Solid Waste Management Company of Georgia” Ltd closed landfill of Borjomi Municipality
+                        according
+                        to EU standards. Waste transfer station has already been constructed in Borjomi.</p>
+                </div>
+                <img src="images/transfer.jpg" alt="transfer-station">
 
-        </footer>
+            </div>
+        </div>
+    </section> -->
+    <footer>
+
+    </footer>
     </section>
 
 

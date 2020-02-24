@@ -9,55 +9,93 @@
 
 
 
-body{
+body {
     // font-family: "ALK Sanet";
     // @include google-font("Montserrat");
     @include google-font("Droid Sans");
-    header{
+
+    header {
         width: 100%;
-        .sticky{
+
+        .sticky {
             @extend %sticky;
             @extend %flex;
-            @include d-flex (flex-start,center);
+            @include d-flex (flex-start, center);
             z-index: 20;
-            img{
+
+            img {
                 height: 50px;
             }
-            .navbar{
-                ul{
-                @extend %flex;
-                @include d-flex (space-between,center);
+
+            .navbar {
+                ul {
+                    @extend %flex;
+                    @include d-flex (space-between, center);
                 }
-                li{
-                    margin-right:$margin-right20;
-                    &:last-child{
+
+                li {
+                    margin-right: $margin-right20;
+
+                    &:last-child {
                         margin-right: 0;
                     }
-                    a{
-                        color:#fff;
+
+                    a {
+                        color: #fff;
                     }
                 }
             }
         }
-        .burger{
-            .blue-logo{
-                img{
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    height: 50px;
-                    width:30%;
+
+        .burger {
+            @extend %burger;
+            .responsive-logo{
+                position: absolute;
+                top:5px;
+                right: 10px;
+                height: 50px;
+            }
+            .burger-container {
+                position: relative;
+                display: inline-block;
+                cursor: pointer;
+                
+                .navbar-small{
+                    display: none;
+                }
+
+                .bar1, .bar2, .bar3 {
+                    width: 35px;
+                    height: 5px;
+                    background-color: #fff;
+                    margin: 6px 0;
+                    transition: 0.4s;
                 }
             }
+
+            .change {
+                .bar1 {
+                    @include transform(rotate(-45deg) translate((-9px,6px)));
+                }
+
+                .bar2 {
+                    opacity: 0;
+                }
+
+                .bar3 {
+                    @include transform(rotate(45deg) translate(-8px,-8px));
+                }
+               
+            }
+         
         }
-        .absolute-burger{
-            @include p-absolute (0,50px);
-        }
-        @media screen and (max-width: 600px){
-            .sticky{
+
+        @media screen and (max-width: 600px) {
+            .sticky {
                 display: none;
             }
         }
+
         @media screen and (min-width: 600px) {
             .burger{
                 display: none;

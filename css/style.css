@@ -139,12 +139,17 @@ body header .sticky {
   font-size: 20px;
   font-weight: 600; }
 
+body header .burger {
+  background-color: #283593;
+  height: 60px; }
+
 body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1, body section .news .box2 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
-  background-color: #F2F3F4;
-  max-width: fit-content; }
+  background-color: #283593;
+  max-width: fit-content;
+  opacity: 0.8; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -199,12 +204,17 @@ body header .sticky {
   font-size: 20px;
   font-weight: 600; }
 
+body header .burger {
+  background-color: #283593;
+  height: 60px; }
+
 body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1, body section .news .box2 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
-  background-color: #F2F3F4;
-  max-width: fit-content; }
+  background-color: #283593;
+  max-width: fit-content;
+  opacity: 0.8; }
 
 body { }
   body header {
@@ -224,15 +234,33 @@ body { }
           margin-right: 0; }
         body header .sticky .navbar li a {
           color: #fff; }
-    body header .burger .blue-logo img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 50px;
-      width: 30%; }
-    body header .absolute-burger {
-      top: 0;
-      left: 50px; }
+    body header .burger .responsive-logo {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      height: 50px; }
+    body header .burger .burger-container {
+      position: relative;
+      display: inline-block;
+      cursor: pointer; }
+      body header .burger .burger-container .navbar-small {
+        display: none; }
+      body header .burger .burger-container .bar1, body header .burger .burger-container .bar2, body header .burger .burger-container .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: 0.4s; }
+    body header .burger .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      -ms-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px); }
+    body header .burger .change .bar2 {
+      opacity: 0; }
+    body header .burger .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      -ms-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px); }
     @media screen and (max-width: 600px) {
       body header .sticky {
         display: none; } }
@@ -241,14 +269,13 @@ body { }
         display: none; } }
 
 body section .closure-h5 {
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 20px;
-  color: #283593; }
+  color: #fff; }
 
 body section .closure-p {
-  background-color: grey;
   font-size: 16px;
-  color: #283593; }
+  color: #fff; }
 
 body .container-margin {
   margin-top: 50px; }
@@ -293,6 +320,10 @@ body section .news {
   .rounded-img {
     margin-top: 20px; } }
 
+@media screen and (max-width: 600px) {
+  .section-slider {
+    display: none; } }
+
 body header .sticky {
   position: sticky;
   top: 0;
@@ -303,12 +334,17 @@ body header .sticky {
   font-size: 20px;
   font-weight: 600; }
 
+body header .burger {
+  background-color: #283593;
+  height: 60px; }
+
 body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1, body section .news .box2 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
-  background-color: #F2F3F4;
-  max-width: fit-content; }
+  background-color: #283593;
+  max-width: fit-content;
+  opacity: 0.8; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -363,12 +399,17 @@ body header .sticky {
   font-size: 20px;
   font-weight: 600; }
 
+body header .burger {
+  background-color: #283593;
+  height: 60px; }
+
 body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1, body section .news .box2 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
-  background-color: #F2F3F4;
-  max-width: fit-content; }
+  background-color: #283593;
+  max-width: fit-content;
+  opacity: 0.8; }
 
 body { }
   body header {
@@ -388,15 +429,33 @@ body { }
           margin-right: 0; }
         body header .sticky .navbar li a {
           color: #fff; }
-    body header .burger .blue-logo img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 50px;
-      width: 30%; }
-    body header .absolute-burger {
-      top: 0;
-      left: 50px; }
+    body header .burger .responsive-logo {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      height: 50px; }
+    body header .burger .burger-container {
+      position: relative;
+      display: inline-block;
+      cursor: pointer; }
+      body header .burger .burger-container .navbar-small {
+        display: none; }
+      body header .burger .burger-container .bar1, body header .burger .burger-container .bar2, body header .burger .burger-container .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: 0.4s; }
+    body header .burger .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      -ms-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px); }
+    body header .burger .change .bar2 {
+      opacity: 0; }
+    body header .burger .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      -ms-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px); }
     @media screen and (max-width: 600px) {
       body header .sticky {
         display: none; } }
