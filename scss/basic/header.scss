@@ -49,7 +49,7 @@ body{
                 }
             }
         }
-        .bsolute-burger{
+        .absolute-burger{
             @include p-absolute (0,50px);
         }
         @media screen and (max-width: 600px){

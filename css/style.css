@@ -230,7 +230,7 @@ body { }
       margin-right: auto;
       height: 50px;
       width: 30%; }
-    body header .bsolute-burger {
+    body header .absolute-burger {
       top: 0;
       left: 50px; }
     @media screen and (max-width: 600px) {
@@ -253,7 +253,6 @@ body section .closure-p {
 body .container-margin {
   margin-top: 50px; }
   body .container-margin .circles {
-    flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; }
@@ -266,12 +265,28 @@ body .container-margin {
       body .container-margin .circles .circle-top .rounded-img {
         width: 140px;
         border-radius: 50%; }
-      body .container-margin .circles .circle-top .text-circle {
-        text-align: center; }
-        body .container-margin .circles .circle-top .text-circle .circle-h6 {
-          font-size: 28px; }
-        body .container-margin .circles .circle-top .text-circle .circle-p {
-          font-size: 18px; }
+      body .container-margin .circles .circle-top .circle-h6 {
+        font-size: 28px;
+        text-align: center;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      body .container-margin .circles .circle-top .circle-p {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400; }
+
+@media screen and (max-width: 600px) {
+  .circles {
+    flex-flow: column; } }
+
+@media screen and (max-width: 600px) {
+  .circle-top {
+    max-width: 100%; } }
+
+@media screen and (max-width: 600px) {
+  .rounded-img {
+    margin-top: 20px; } }
 
 body header .sticky {
   position: sticky;
@@ -374,7 +389,7 @@ body { }
       margin-right: auto;
       height: 50px;
       width: 30%; }
-    body header .bsolute-burger {
+    body header .absolute-burger {
       top: 0;
       left: 50px; }
     @media screen and (max-width: 600px) {
