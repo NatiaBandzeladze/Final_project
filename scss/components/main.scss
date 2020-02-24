@@ -32,7 +32,7 @@ body{
                 @extend %flex;
                 flex-flow: column;
                 @include d-flex (center,center);
-                margin-left: 20px;
+                margin-left: 30px;
                 max-width: 30%;
                 &:first-child{
                     margin-left: 0;
@@ -56,11 +56,16 @@ body{
             }
         }
     }
+
     section{
         .news{
-            .box1 .box2 .box3{
+            margin-top: $margin-top200;
+            .box1{
                 @extend %flex;
                 // @include d-flex (space-around,center);
+            }
+            .box2{
+                @extend %flex;
             }
         }
     }
