@@ -262,8 +262,10 @@ body .container-margin {
       align-items: center;
       margin-left: 20px;
       max-width: 30%; }
+      body .container-margin .circles .circle-top:first-child {
+        margin-left: 0; }
       body .container-margin .circles .circle-top .rounded-img {
-        width: 140px;
+        width: 180px;
         border-radius: 50%; }
       body .container-margin .circles .circle-top .circle-h6 {
         font-size: 28px;

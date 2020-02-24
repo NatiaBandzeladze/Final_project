@@ -34,8 +34,11 @@ body{
                 @include d-flex (center,center);
                 margin-left: 20px;
                 max-width: 30%;
+                &:first-child{
+                    margin-left: 0;
+                }
                 .rounded-img{
-                    width: 140px;
+                    width: 180px;
                     border-radius: 50%;
                 }
                 .circle-h6{
