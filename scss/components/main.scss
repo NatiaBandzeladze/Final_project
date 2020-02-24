@@ -21,31 +21,37 @@ body{
         }
         
     }
-    section{
-        margin-top: $margin-top50;
+        
+    .container-margin{
+        margin-top:$margin-top50;
         .circles{
             @extend %flex;
+            flex-flow: row;
+            flex-wrap: wrap;
             @include d-flex (space-around,center);
-            .circle1 .cirlce2 .circle3{
-                @extend %flex;
-                @include d-flex (center,center);
-                margin-left: 20px;
+                .circle-top{
+                    @extend %flex;
+                    flex-flow: column;
+                    @include d-flex (center,center);
+                    margin-left: 20px;
+                    max-width: 30%;
+                    .rounded-img{
+                        width: 140px;
+                        border-radius: 50%;
+                    }
+                    .text-circle{
+                        text-align: center;
+
+                        .circle-h6{
+                            font-size: $font-size-bigger;
+                        }
+                        .circle-p{
+                            font-size: $font-size-medium;
+                         }
+                    }
+                    
+                }
             }
-            img{
-                width: 50%;
-                margin-left: 50px;
-            }
-            .circle-h6{
-                font-size: $font-size-bigger;
-                max-width: 80%;
-                text-align: center;
-            }
-            .circle-p{
-                font-size: $font-size-medium;
-                max-width: 80%;
-                text-align: center;
-            }
-        }
     }
     section{
         .news{

@@ -139,7 +139,7 @@ body header .sticky {
   font-size: 22px;
   font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
+body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
@@ -199,7 +199,7 @@ body header .sticky {
   font-size: 22px;
   font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
+body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
@@ -250,26 +250,28 @@ body section .closure-p {
   font-size: 18px;
   color: #283593; }
 
-body section {
+body .container-margin {
   margin-top: 50px; }
-  body section .circles {
+  body .container-margin .circles {
+    flex-flow: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; }
-    body section .circles .circle1 .cirlce2 .circle3 {
+    body .container-margin .circles .circle-top {
+      flex-flow: column;
       justify-content: center;
       align-items: center;
-      margin-left: 20px; }
-    body section .circles img {
-      width: 50%;
-      margin-left: 50px; }
-    body section .circles .circle-h6 {
-      font-size: 28px;
-      max-width: 80%;
-      text-align: center; }
-    body section .circles .circle-p {
-      font-size: 18px;
-      max-width: 80%;
-      text-align: center; }
+      margin-left: 20px;
+      max-width: 30%; }
+      body .container-margin .circles .circle-top .rounded-img {
+        width: 140px;
+        border-radius: 50%; }
+      body .container-margin .circles .circle-top .text-circle {
+        text-align: center; }
+        body .container-margin .circles .circle-top .text-circle .circle-h6 {
+          font-size: 28px; }
+        body .container-margin .circles .circle-top .text-circle .circle-p {
+          font-size: 18px; }
 
 body header .sticky {
   position: sticky;
@@ -281,7 +283,7 @@ body header .sticky {
   font-size: 22px;
   font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
+body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
@@ -341,7 +343,7 @@ body header .sticky {
   font-size: 22px;
   font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
+body header .sticky, body header .sticky .navbar ul, body .container-margin .circles, body .container-margin .circles .circle-top, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
