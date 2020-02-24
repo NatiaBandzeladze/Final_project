@@ -11,13 +11,13 @@ body{
             @extend %background;
             font-size: $font-size-biggest;
             margin-bottom: $margin-bottom20;
-            color: #154360;
+            color: #283593;
         }
         .closure-p{
             @extend %background;
             background-color: grey;
             font-size: $font-size-medium;
-            color: #154360
+            color: #283593;
         }
         
     }
@@ -44,6 +44,14 @@ body{
                 font-size: $font-size-medium;
                 max-width: 80%;
                 text-align: center;
+            }
+        }
+    }
+    section{
+        .news{
+            .box1 .box2 .box3{
+                @extend %flex;
+                // @include d-flex (space-around,center);
             }
         }
     }

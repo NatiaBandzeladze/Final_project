@@ -136,9 +136,10 @@ body header .sticky {
   background-color: #283593;
   padding: 14px 1px;
   text-align: center;
-  font-size: 18px; }
+  font-size: 22px;
+  font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3 {
+body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
@@ -195,9 +196,10 @@ body header .sticky {
   background-color: #283593;
   padding: 14px 1px;
   text-align: center;
-  font-size: 18px; }
+  font-size: 22px;
+  font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3 {
+body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
@@ -218,7 +220,7 @@ body { }
         align-items: center; }
       body header .sticky .navbar li {
         margin-right: 20px; }
-        body header .sticky .navbar li :last-child {
+        body header .sticky .navbar li:last-child {
           margin-right: 0; }
         body header .sticky .navbar li a {
           color: #fff; }
@@ -231,22 +233,22 @@ body { }
     body header .bsolute-burger {
       top: 0;
       left: 50px; }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
       body header .sticky {
         display: none; } }
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
       body header .burger {
         display: none; } }
 
 body section .closure-h5 {
   font-size: 40px;
   margin-bottom: 20px;
-  color: #154360; }
+  color: #283593; }
 
 body section .closure-p {
   background-color: grey;
   font-size: 18px;
-  color: #154360; }
+  color: #283593; }
 
 body section {
   margin-top: 50px; }
@@ -261,7 +263,7 @@ body section {
       width: 50%;
       margin-left: 50px; }
     body section .circles .circle-h6 {
-      font-size: 26px;
+      font-size: 28px;
       max-width: 80%;
       text-align: center; }
     body section .circles .circle-p {
@@ -276,9 +278,10 @@ body header .sticky {
   background-color: #283593;
   padding: 14px 1px;
   text-align: center;
-  font-size: 18px; }
+  font-size: 22px;
+  font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3 {
+body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
@@ -335,9 +338,10 @@ body header .sticky {
   background-color: #283593;
   padding: 14px 1px;
   text-align: center;
-  font-size: 18px; }
+  font-size: 22px;
+  font-weight: 1000; }
 
-body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3 {
+body header .sticky, body header .sticky .navbar ul, body section .circles, body section .circles .circle1 .cirlce2 .circle3, body section .news .box1 .box2 .box3 {
   display: flex; }
 
 body section .closure-h5, body section .closure-p {
@@ -358,7 +362,7 @@ body { }
         align-items: center; }
       body header .sticky .navbar li {
         margin-right: 20px; }
-        body header .sticky .navbar li :last-child {
+        body header .sticky .navbar li:last-child {
           margin-right: 0; }
         body header .sticky .navbar li a {
           color: #fff; }
@@ -371,9 +375,9 @@ body { }
     body header .bsolute-burger {
       top: 0;
       left: 50px; }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
       body header .sticky {
         display: none; } }
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
       body header .burger {
         display: none; } }

@@ -30,7 +30,7 @@ body{
                 }
                 li{
                     margin-right:$margin-right20;
-                    :last-child{
+                    &:last-child{
                         margin-right: 0;}
                     a{
                         // font-family: "ALK Sanet";
@@ -53,12 +53,12 @@ body{
         .bsolute-burger{
             @include p-absolute (0,50px);
         }
-        @media screen and (max-width: 500px){
+        @media screen and (max-width: 600px){
             .sticky{
                 display: none;
             }
         }
-        @media screen and (min-width: 500px) {
+        @media screen and (min-width: 600px) {
             .burger{
                 display: none;
             }
