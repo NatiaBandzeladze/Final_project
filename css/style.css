@@ -235,8 +235,10 @@ body { }
         body header .sticky .navbar li a {
           color: #fff; }
     body header .burger {
-      transition-property: height;
-      transition-duration: 1s linear; }
+      -moz-transition: height 1s linear;
+      -o-transition: height 1s linear;
+      -webkit-transition: height 1s linear;
+      transition: height 1s linear; }
       body header .burger .responsive-logo {
         position: absolute;
         top: 5px;
@@ -251,7 +253,10 @@ body { }
         body header .burger .burger-container .navbar-small {
           height: 1px;
           overflow: hidden;
-          transition: height, 2s, linear; }
+          -moz-transition: height 1s linear;
+          -o-transition: height 1s linear;
+          -webkit-transition: height 1s linear;
+          transition: height 1s linear; }
           body header .burger .burger-container .navbar-small ul {
             flex-flow: column;
             justify-content: center;
@@ -445,8 +450,10 @@ body { }
         body header .sticky .navbar li a {
           color: #fff; }
     body header .burger {
-      transition-property: height;
-      transition-duration: 1s linear; }
+      -moz-transition: height 1s linear;
+      -o-transition: height 1s linear;
+      -webkit-transition: height 1s linear;
+      transition: height 1s linear; }
       body header .burger .responsive-logo {
         position: absolute;
         top: 5px;
@@ -461,7 +468,10 @@ body { }
         body header .burger .burger-container .navbar-small {
           height: 1px;
           overflow: hidden;
-          transition: height, 2s, linear; }
+          -moz-transition: height 1s linear;
+          -o-transition: height 1s linear;
+          -webkit-transition: height 1s linear;
+          transition: height 1s linear; }
           body header .burger .burger-container .navbar-small ul {
             flex-flow: column;
             justify-content: center;
