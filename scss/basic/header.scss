@@ -49,6 +49,9 @@ body {
 
         .burger {
             @extend %burger;
+            transition-property: height;
+            transition-duration: 1s linear;
+
             .responsive-logo{
                 position: absolute;
                 top:5px;
@@ -63,16 +66,16 @@ body {
                 margin-top: $margin-top5;
                 
                 .navbar-small{
-                    visibility: hidden;
-                    opacity: 0;
-                    transition: visibility 0s, opacity 0.5s linear;
+                    height: 1px;
+                    overflow: hidden;
+                    transition: height, 2s, linear;
                     ul{
                         @extend %flex;
                         flex-flow: column;
                         @include d-flex (center,center);
                         li{
                             a{
-                            color: #fff;
+                            color:#fff;
                             }
                         }
                     }
