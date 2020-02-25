@@ -59,6 +59,8 @@ body {
                 position: relative;
                 display: inline-block;
                 cursor: pointer;
+                margin-left: $margin-left10;
+                margin-top: $margin-top5;
                 
                 .navbar-small{
                     display: none;

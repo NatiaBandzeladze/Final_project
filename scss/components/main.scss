@@ -6,19 +6,19 @@
 @import "../basic/header.scss";
 
 body{
-    section{
-        .closure-h5{
-            @extend %background;
-            font-size: $font-size-biggest;
-            margin-bottom: $margin-bottom20;
-            color: #fff;
-        }
-        .closure-p{
-            @extend %background;
-            font-size: $font-size-medium;
-            color: #fff;
-        }
-        
+    .sectionslider{
+                            .closure-h5{
+                                @extend %background;
+                                font-size: $font-size-biggest;
+                                margin-bottom: $margin-bottom20;
+                                color: #fff;
+                            }
+                            .closure-p{
+                                @extend %background;
+                                font-size: $font-size-medium;
+                                color: #fff;
+                            }
+                            
     }
         
     .container-margin{
@@ -72,25 +72,28 @@ body{
 
 
 
-@media screen and (max-width: 600px){
-    .circles{
-        flex-flow: column;
-    }
-}
+        @media screen and (max-width: 600px){
+            .circles{
+                flex-flow: column;
+                .circle-top{
+                    max-width: 100%;
+                    .rounded-img{
+                        margin-top: $margin-top20;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
 
-@media screen and (max-width: 600px){
-    .circle-top{
-        max-width: 100%;
-    }
-}
-@media screen and (max-width: 600px){
-    .rounded-img{
-        margin-top: $margin-top20;
-    }
-}
+// @media screen and (max-width: 600px){
+    
+// }
+// @media screen and (max-width: 600px){
+    
+// }
 
-@media screen and (max-width: 600px){
-    .section-slider{
-        display: none;
+    @media screen and (max-width: 600px){
+        .section-slider{
+            display: none;
+        }
     }
-}
