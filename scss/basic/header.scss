@@ -51,44 +51,50 @@ body {
             @extend %burger;
             @include transition(height 0.5s linear);
 
-            .responsive-logo{
+            .responsive-logo {
                 position: absolute;
-                top:5px;
+                top: 5px;
                 right: 10px;
                 height: 50px;
             }
+
             .burger-container {
-                
+
                 display: inline-block;
                 cursor: pointer;
                 margin-left: $margin-left10;
                 margin-top: $margin-top5;
-                
-                .navbar-small{
+
+                .navbar-small {
                     @extend %navbar-small-back;
                     height: 1px;
                     overflow: hidden;
                     @include transition(height 0.5s linear);
-                    ul{
+
+                    ul {
                         z-index: 21;
                         @extend %flex;
                         flex-flow: column;
-                        @include d-flex (center,center);
-                        li{
+                        @include d-flex (center, center);
+
+                        li {
                             margin-bottom: $margin-bottom5;
-                            &:last-child{
-                                margin-bottom: 0;
-                            }
-                            a{
-                            color:#fff;
-                            font-weight: 600;
-                            text-align: justify;
+                                .nav-small-li {
+                                    color: #fff;
+                                    font-weight: 600;
+                                    text-align: justify;
+
+                                }
+                                &:last-child {
+                                    margin-bottom: 0;
                             }
                         }
                     }
                 }
 
-                .bar1, .bar2, .bar3 {
+                .bar1,
+                .bar2,
+                .bar3 {
                     width: 35px;
                     height: 5px;
                     background-color: #fff;
@@ -99,7 +105,7 @@ body {
 
             .change {
                 .bar1 {
-                    @include transform(rotate(-45deg) translate((-9px,6px)));
+                    @include transform(rotate(-45deg) translate((-9px, 6px)));
                 }
 
                 .bar2 {
@@ -107,10 +113,10 @@ body {
                 }
 
                 .bar3 {
-                    @include transform(rotate(45deg) translate(-8px,-8px));
+                    @include transform(rotate(45deg) translate(-8px, -8px));
                 }
             }
-         
+
         }
 
         @media screen and (max-width: 600px) {
@@ -120,7 +126,7 @@ body {
         }
 
         @media screen and (min-width: 600px) {
-            .burger{
+            .burger {
                 display: none;
             }
         }
