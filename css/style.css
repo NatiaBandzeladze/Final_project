@@ -288,9 +288,7 @@ body .container-margin {
     body .container-margin .circles .circle-top {
       flex-flow: column;
       justify-content: center;
-      align-items: center;
-      margin-left: 30px;
-      max-width: 30%; }
+      align-items: center; }
       body .container-margin .circles .circle-top:first-child {
         margin-left: 0; }
       body .container-margin .circles .circle-top .rounded-img {
@@ -312,12 +310,19 @@ body section .news {
 
 @media screen and (max-width: 600px) {
   .circles {
-    flex-flow: column; }
-    .circles .circle-top {
-      max-width: 100%; }
-      .circles .circle-top .rounded-img {
-        margin-top: 20px;
-        margin-left: 0; } }
+    flex-flow: column; } }
+
+@media screen and (min-width: 600px) {
+  .circle-top {
+    max-width: 30%; } }
+
+@media screen and (max-width: 600px) {
+  .circle-top {
+    max-width: 100%; } }
+
+@media screen and (max-width: 600px) {
+  .rounded-img {
+    margin-top: 20px; } }
 
 @media screen and (max-width: 600px) {
   .section-slider {

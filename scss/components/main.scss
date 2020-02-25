@@ -5,49 +5,54 @@
 @import "../modules/classes.scss";
 @import "../basic/header.scss";
 
-body{
-    .sectionslider{
-                            .closure-h5{
-                                @extend %background;
-                                font-size: $font-size-biggest;
-                                margin-bottom: $margin-bottom20;
-                                color: #fff;
-                            }
-                            .closure-p{
-                                @extend %background;
-                                font-size: $font-size-medium;
-                                color: #fff;
-                            }
-                            
+body {
+    .sectionslider {
+        .closure-h5 {
+            @extend %background;
+            font-size: $font-size-biggest;
+            margin-bottom: $margin-bottom20;
+            color: #fff;
+        }
+
+        .closure-p {
+            @extend %background;
+            font-size: $font-size-medium;
+            color: #fff;
+        }
+
     }
-        
-    .container-margin{
-        margin-top:$margin-top50;
-        .circles{
+
+    .container-margin {
+        margin-top: $margin-top50;
+
+        .circles {
             @extend %flex;
             flex-wrap: wrap;
-            @include d-flex (space-around,center);
-            .circle-top{
+            @include d-flex (space-around, center);
+
+            .circle-top {
                 @extend %flex;
                 flex-flow: column;
-                @include d-flex (center,center);
-                margin-left: 30px;
-                max-width: 30%;
-                &:first-child{
+                @include d-flex (center, center);
+
+                &:first-child {
                     margin-left: 0;
                 }
-                .rounded-img{
+
+                .rounded-img {
                     width: 180px;
                     border-radius: 50%;
                 }
-                .circle-h6{
+
+                .circle-h6 {
                     font-size: $font-size-bigger;
                     text-align: center;
                     font-weight: 400;
                     margin-top: $margin-top20;
                     margin-bottom: $margin-bottom20;
                 }
-                .circle-p{
+
+                .circle-p {
                     font-size: $font-size-medium;
                     text-align: center;
                     font-weight: 400;
@@ -56,14 +61,16 @@ body{
         }
     }
 
-    section{
-        .news{
+    section {
+        .news {
             margin-top: $margin-top200;
-            .box1{
+
+            .box1 {
                 @extend %flex;
                 // @include d-flex (space-around,center);
             }
-            .box2{
+
+            .box2 {
                 @extend %flex;
             }
         }
@@ -72,28 +79,32 @@ body{
 
 
 
-        @media screen and (max-width: 600px){
-            .circles{
-                flex-flow: column;
-                .circle-top{
-                    max-width: 100%;
-                    .rounded-img{
-                        margin-top: $margin-top20;
-                        margin-left: 0;
-                    }
-                }
-            }
-        }
-
-// @media screen and (max-width: 600px){
-    
-// }
-// @media screen and (max-width: 600px){
-    
-// }
-
-    @media screen and (max-width: 600px){
-        .section-slider{
-            display: none;
-        }
+@media screen and (max-width: 600px) {
+    .circles {
+        flex-flow: column;
     }
+}
+@media screen and (min-width: 600px) {
+    .circle-top {
+        max-width: 30%;
+        // margin-left:$margin-left0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .circle-top {
+        max-width: 100%;
+        // margin-left:$margin-left0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rounded-img {
+        margin-top: $margin-top20;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-slider {
+        display: none;
+    }
+}
