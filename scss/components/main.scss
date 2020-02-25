@@ -68,7 +68,7 @@ body {
 
     .news-container {
         .news {
-            margin-top: $margin-top200;
+            margin-top: $margin-top100;
 
             .box1 {
                 @extend %flex;
@@ -76,54 +76,45 @@ body {
                 margin-bottom: $margin-bottom50;
 
                 .h6-p {
-                    max-width: 58%;
 
                     h6 {
                         font-size: $font-size-biggest;
                         font-weight: 600;
                         color: #4A4A5E;
+                        margin-bottom: $margin-bottom20;
                     }
 
                     p {
                         font-size: $font-size-mediumbig;
                         font-weight: 500;
                         color: #4A4A5E;
+                        text-align: justify;
                         line-height: 1.5;
                     }
-                }
-
-                img {
-                    max-width: 42%;
-                    margin-left: $margin-left40;
                 }
             }
 
             .box2 {
                 @extend %flex;
-                flex-direction: row-reverse;
                 @include d-flex (space-between, center);
                 margin-bottom: $margin-bottom50;
 
                 .h6-p {
-                    max-width: 58%;
 
                     h6 {
                         font-size: $font-size-biggest;
                         font-weight: 600;
                         color: #4A4A5E;
+                        margin-bottom: $margin-bottom20;
                     }
 
                     p {
                         font-size: $font-size-mediumbig;
                         font-weight: 500;
                         color: #4A4A5E;
+                        text-align: justify;
                         line-height: 1.5;
                     }
-                }
-
-                img {
-                    max-width: 42%;
-                    margin-right: $margin-right40;
                 }
             }
         }
@@ -175,5 +166,52 @@ body {
 @media screen and (min-width: 600px) {
     .small-cover {
         display: none;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .box1{
+        h6{
+            width:55%;
+        }
+        img{
+            width: 40%;
+            margin-left: $margin-left40;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box1{
+        flex-direction: column;
+        h6{
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+@media screen and (min-width: 600px){
+    .box2{
+        flex-direction: row-reverse;
+        h6{
+            width:55%;
+        }
+        img{
+            width: 40%;
+            margin-right: $margin-right40;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .box2{
+    flex-direction: column;
+        h6{
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
     }
 }
