@@ -17,19 +17,21 @@
 }
 
 %flex{
-display: flex;
+    display: flex;
 }
 
-%background{
+%background-slide{
     background-color:#283593;
     max-width: fit-content;
     opacity: 0.8;
 }
 
-%burgerbackground{
-    background-color:#283593;
-    width: 100%;
-    
+%navbar-small-back{
+    background-color: #2D6194 ;
+    opacity: 0.3;
+}
+%border-small-nav{
+    border: white 2px solid;
 }
 
 

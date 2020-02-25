@@ -151,6 +151,10 @@ body .section-slider .closure-h5, body .section-slider .closure-p {
   max-width: fit-content;
   opacity: 0.8; }
 
+body header .burger .burger-container .navbar-small {
+  background-color: #2D6194;
+  opacity: 0.3; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -216,13 +220,16 @@ body .section-slider .closure-h5, body .section-slider .closure-p {
   max-width: fit-content;
   opacity: 0.8; }
 
+body header .burger .burger-container .navbar-small {
+  background-color: #2D6194;
+  opacity: 0.3; }
+
 body { }
   body header {
     width: 100%; }
     body header .sticky {
       justify-content: flex-start;
-      align-items: center;
-      z-index: 20; }
+      align-items: center; }
       body header .sticky img {
         height: 50px; }
       body header .sticky .navbar ul {
@@ -235,17 +242,17 @@ body { }
         body header .sticky .navbar li a {
           color: #fff; }
     body header .burger {
-      -moz-transition: height 1s linear;
-      -o-transition: height 1s linear;
-      -webkit-transition: height 1s linear;
-      transition: height 1s linear; }
+      position: relative;
+      -moz-transition: height 0.5s linear;
+      -o-transition: height 0.5s linear;
+      -webkit-transition: height 0.5s linear;
+      transition: height 0.5s linear; }
       body header .burger .responsive-logo {
         position: absolute;
         top: 5px;
         right: 10px;
         height: 50px; }
       body header .burger .burger-container {
-        position: relative;
         display: inline-block;
         cursor: pointer;
         margin-left: 10px;
@@ -253,16 +260,23 @@ body { }
         body header .burger .burger-container .navbar-small {
           height: 1px;
           overflow: hidden;
-          -moz-transition: height 1s linear;
-          -o-transition: height 1s linear;
-          -webkit-transition: height 1s linear;
-          transition: height 1s linear; }
+          -moz-transition: height 0.5s linear;
+          -o-transition: height 0.5s linear;
+          -webkit-transition: height 0.5s linear;
+          transition: height 0.5s linear; }
           body header .burger .burger-container .navbar-small ul {
+            z-index: 21;
             flex-flow: column;
             justify-content: center;
             align-items: center; }
-            body header .burger .burger-container .navbar-small ul li a {
-              color: #fff; }
+            body header .burger .burger-container .navbar-small ul li {
+              margin-bottom: 5px; }
+              body header .burger .burger-container .navbar-small ul li:last-child {
+                margin-bottom: 0; }
+              body header .burger .burger-container .navbar-small ul li a {
+                color: #fff;
+                font-weight: 600;
+                text-align: justify; }
         body header .burger .burger-container .bar1, body header .burger .burger-container .bar2, body header .burger .burger-container .bar3 {
           width: 35px;
           height: 5px;
@@ -366,6 +380,10 @@ body .section-slider .closure-h5, body .section-slider .closure-p {
   max-width: fit-content;
   opacity: 0.8; }
 
+body header .burger .burger-container .navbar-small {
+  background-color: #2D6194;
+  opacity: 0.3; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -431,13 +449,16 @@ body .section-slider .closure-h5, body .section-slider .closure-p {
   max-width: fit-content;
   opacity: 0.8; }
 
+body header .burger .burger-container .navbar-small {
+  background-color: #2D6194;
+  opacity: 0.3; }
+
 body { }
   body header {
     width: 100%; }
     body header .sticky {
       justify-content: flex-start;
-      align-items: center;
-      z-index: 20; }
+      align-items: center; }
       body header .sticky img {
         height: 50px; }
       body header .sticky .navbar ul {
@@ -450,17 +471,17 @@ body { }
         body header .sticky .navbar li a {
           color: #fff; }
     body header .burger {
-      -moz-transition: height 1s linear;
-      -o-transition: height 1s linear;
-      -webkit-transition: height 1s linear;
-      transition: height 1s linear; }
+      position: relative;
+      -moz-transition: height 0.5s linear;
+      -o-transition: height 0.5s linear;
+      -webkit-transition: height 0.5s linear;
+      transition: height 0.5s linear; }
       body header .burger .responsive-logo {
         position: absolute;
         top: 5px;
         right: 10px;
         height: 50px; }
       body header .burger .burger-container {
-        position: relative;
         display: inline-block;
         cursor: pointer;
         margin-left: 10px;
@@ -468,16 +489,23 @@ body { }
         body header .burger .burger-container .navbar-small {
           height: 1px;
           overflow: hidden;
-          -moz-transition: height 1s linear;
-          -o-transition: height 1s linear;
-          -webkit-transition: height 1s linear;
-          transition: height 1s linear; }
+          -moz-transition: height 0.5s linear;
+          -o-transition: height 0.5s linear;
+          -webkit-transition: height 0.5s linear;
+          transition: height 0.5s linear; }
           body header .burger .burger-container .navbar-small ul {
+            z-index: 21;
             flex-flow: column;
             justify-content: center;
             align-items: center; }
-            body header .burger .burger-container .navbar-small ul li a {
-              color: #fff; }
+            body header .burger .burger-container .navbar-small ul li {
+              margin-bottom: 5px; }
+              body header .burger .burger-container .navbar-small ul li:last-child {
+                margin-bottom: 0; }
+              body header .burger .burger-container .navbar-small ul li a {
+                color: #fff;
+                font-weight: 600;
+                text-align: justify; }
         body header .burger .burger-container .bar1, body header .burger .burger-container .bar2, body header .burger .burger-container .bar3 {
           width: 35px;
           height: 5px;

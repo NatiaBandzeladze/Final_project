@@ -8,14 +8,14 @@
 body {
     .section-slider {
         .closure-h5 {
-            @extend %background;
+            @extend %background-slide;
             font-size: $font-size-biggest;
             margin-bottom: $margin-bottom20;
             color: #fff;
         }
 
         .closure-p {
-            @extend %background;
+            @extend %background-slide;
             font-size: $font-size-medium;
             color: #fff;
         }

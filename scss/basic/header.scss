@@ -21,7 +21,6 @@ body {
             @extend %sticky;
             @extend %flex;
             @include d-flex (flex-start, center);
-            z-index: 20;
 
             img {
                 height: 50px;
@@ -48,8 +47,9 @@ body {
         }
 
         .burger {
+            position: relative;
             @extend %burger;
-            @include transition(height 1s linear);
+            @include transition(height 0.5s linear);
 
             .responsive-logo{
                 position: absolute;
@@ -58,23 +58,31 @@ body {
                 height: 50px;
             }
             .burger-container {
-                position: relative;
+                
                 display: inline-block;
                 cursor: pointer;
                 margin-left: $margin-left10;
                 margin-top: $margin-top5;
                 
                 .navbar-small{
+                    @extend %navbar-small-back;
                     height: 1px;
                     overflow: hidden;
-                    @include transition(height 1s linear);
+                    @include transition(height 0.5s linear);
                     ul{
+                        z-index: 21;
                         @extend %flex;
                         flex-flow: column;
                         @include d-flex (center,center);
                         li{
+                            margin-bottom: $margin-bottom5;
+                            &:last-child{
+                                margin-bottom: 0;
+                            }
                             a{
                             color:#fff;
+                            font-weight: 600;
+                            text-align: justify;
                             }
                         }
                     }
