@@ -63,7 +63,19 @@ body {
                 margin-top: $margin-top5;
                 
                 .navbar-small{
-                    display: none;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: visibility 0s, opacity 0.5s linear;
+                    ul{
+                        @extend %flex;
+                        flex-flow: column;
+                        @include d-flex (center,center);
+                        li{
+                            a{
+                            color: #fff;
+                            }
+                        }
+                    }
                 }
 
                 .bar1, .bar2, .bar3 {
