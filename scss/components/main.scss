@@ -34,7 +34,7 @@ body {
                 @extend %flex;
                 flex-flow: column;
                 @include d-flex (center, center);
-
+                margin-bottom: $margin-bottom50;
 
                 &:first-child {
                     margin-left: 0;
@@ -63,17 +63,26 @@ body {
                     color: #4A4A5E;
                 }
             }
+            &:after {
+                display: block;
+                content: "";
+                height: 3px;
+                width: 80%;
+                background: #283593;
+                opacity: 0.5;
+            }
         }
     }
 
     .news-container {
         .news {
-            margin-top: $margin-top100;
+            margin-top: $margin-top50;
 
             .box1 {
                 @extend %flex;
                 @include d-flex (space-between, center);
                 margin-bottom: $margin-bottom50;
+                @extend %news-box-background;
 
                 .h6-p {
 
@@ -93,11 +102,11 @@ body {
                     }
                 }
             }
-
             .box2 {
                 @extend %flex;
                 @include d-flex (space-between, center);
                 margin-bottom: $margin-bottom50;
+                @extend %news-box-background;
 
                 .h6-p {
 
@@ -169,12 +178,13 @@ body {
     }
 }
 
-@media screen and (min-width: 600px){
-    .box1{
-        h6{
-            width:55%;
+@media screen and (min-width: 600px) {
+    .box1 {
+        h6 {
+            width: 55%;
         }
-        img{
+
+        img {
             width: 40%;
             margin-left: $margin-left40;
         }
@@ -182,35 +192,43 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .box1{
+    .box1 {
         flex-direction: column;
-        h6{
+
+        h6 {
             width: 100%;
         }
-        img{
+
+        img {
             width: 100%;
         }
     }
 }
-@media screen and (min-width: 600px){
-    .box2{
+
+@media screen and (min-width: 600px) {
+    .box2 {
         flex-direction: row-reverse;
-        h6{
-            width:55%;
+
+        h6 {
+            width: 55%;
         }
-        img{
+
+        img {
             width: 40%;
             margin-right: $margin-right40;
         }
     }
 }
-@media screen and (max-width: 600px){
-    .box2{
-    flex-direction: column;
-        h6{
+
+@media screen and (max-width: 600px) {
+    .box2 {
+        flex-direction: column;
+
+        h6 {
             width: 100%;
         }
-        img{
+
+        img {
             width: 100%;
         }
     }
