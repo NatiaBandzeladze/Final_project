@@ -35,6 +35,7 @@ body {
                 flex-flow: column;
                 @include d-flex (center, center);
 
+
                 &:first-child {
                     margin-left: 0;
                 }
@@ -47,7 +48,9 @@ body {
                 .circle-h6 {
                     font-size: $font-size-bigger;
                     text-align: center;
+                    font-size: $font-size-mediumbig;
                     font-weight: 400;
+                    color: #4A4A5E;
                     margin-top: $margin-top20;
                     margin-bottom: $margin-bottom20;
                 }
@@ -55,23 +58,73 @@ body {
                 .circle-p {
                     font-size: $font-size-medium;
                     text-align: center;
+                    font-size: $font-size-medium;
                     font-weight: 400;
+                    color: #4A4A5E;
                 }
             }
         }
     }
 
-    section {
+    .news-container {
         .news {
             margin-top: $margin-top200;
 
             .box1 {
                 @extend %flex;
-                // @include d-flex (space-around,center);
+                @include d-flex (space-between, center);
+                margin-bottom: $margin-bottom50;
+
+                .h6-p {
+                    max-width: 58%;
+
+                    h6 {
+                        font-size: $font-size-biggest;
+                        font-weight: 600;
+                        color: #4A4A5E;
+                    }
+
+                    p {
+                        font-size: $font-size-mediumbig;
+                        font-weight: 500;
+                        color: #4A4A5E;
+                        line-height: 1.5;
+                    }
+                }
+
+                img {
+                    max-width: 42%;
+                    margin-left: $margin-left40;
+                }
             }
 
             .box2 {
                 @extend %flex;
+                flex-direction: row-reverse;
+                @include d-flex (space-between, center);
+                margin-bottom: $margin-bottom50;
+
+                .h6-p {
+                    max-width: 58%;
+
+                    h6 {
+                        font-size: $font-size-biggest;
+                        font-weight: 600;
+                        color: #4A4A5E;
+                    }
+
+                    p {
+                        font-size: $font-size-mediumbig;
+                        font-weight: 500;
+                        color: #4A4A5E;
+                        line-height: 1.5;
+                    }
+                }
+
+                img {
+                    max-width: 42%;
+                    margin-right: $margin-right40;
+                }
             }
         }
     }
@@ -82,18 +135,28 @@ body {
 @media screen and (max-width: 600px) {
     .circles {
         flex-flow: column;
+        // margin-top: $margin-top100;
     }
 }
+
 @media screen and (min-width: 600px) {
     .circle-top {
         max-width: 30%;
         // margin-left:$margin-left0;
     }
 }
+
 @media screen and (max-width: 600px) {
     .circle-top {
         max-width: 100%;
-        // margin-left:$margin-left0;
+        margin-left: $margin-left0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .circle-top {
+        margin-left: $margin-left30;
+
     }
 }
 
@@ -105,6 +168,12 @@ body {
 
 @media screen and (max-width: 600px) {
     .section-slider {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .small-cover {
         display: none;
     }
 }
