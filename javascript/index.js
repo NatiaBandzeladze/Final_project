@@ -18,7 +18,7 @@ function toggleBurgerMenu(x) {
     var navbar = navbarList[0];
     if (navbar.style.overflow === "hidden" || !navbar.style.overflow) {
         navbar.style.overflow = "visible";
-        navbar.style.height = "120px";
+        navbar.style.height = "130px";
     } else {
         navbar.style.overflow = "hidden";
         navbar.style.height = "1px";
