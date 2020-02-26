@@ -527,7 +527,8 @@ body {
     .box1 h6 {
       width: 100%; }
     .box1 img {
-      width: 100%; } }
+      width: 100%;
+      margin: 0 10px 5px 0; } }
 
 @media screen and (min-width: 600px) {
   .box2 {
@@ -544,7 +545,8 @@ body {
     .box2 h6 {
       width: 100%; }
     .box2 img {
-      width: 100%; } }
+      width: 100%;
+      margin: 0 0 5px 10px; } }
 
 body header .sticky {
   position: sticky;
