@@ -10,6 +10,7 @@
 body {
     font-family: "Raleway";
     .section-slider {
+        width:100%;
         .closure-h5 {
             @extend %background-slide;
             font-size: $font-size-biggest;

@@ -401,13 +401,15 @@ footer {
 
 body {
   font-family: "Raleway"; }
-  body .section-slider .closure-h5 {
-    font-size: 34px;
-    margin-bottom: 20px;
-    color: #fff; }
-  body .section-slider .closure-p {
-    font-size: 20px;
-    color: #fff; }
+  body .section-slider {
+    width: 100%; }
+    body .section-slider .closure-h5 {
+      font-size: 34px;
+      margin-bottom: 20px;
+      color: #fff; }
+    body .section-slider .closure-p {
+      font-size: 20px;
+      color: #fff; }
   body .container-margin {
     margin-top: 50px; }
     body .container-margin .circles {
