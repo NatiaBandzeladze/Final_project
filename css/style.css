@@ -380,6 +380,14 @@ body .news-container .news .box1, body .news-container .news .box2 {
   background-color: #F2F4F4;
   box-shadow: #D5D8DC 10px 10px; }
 
+footer .social-icon {
+  background-color: #283593;
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px; }
+  footer .social-icon img {
+    height: 40px; }
+
 body .section-slider .closure-h5 {
   font-size: 32px;
   margin-bottom: 20px;
@@ -771,3 +779,11 @@ body header .burger .burger-container .navbar-small {
 body .news-container .news .box1, body .news-container .news .box2 {
   background-color: #F2F4F4;
   box-shadow: #D5D8DC 10px 10px; }
+
+footer .social-icon {
+  background-color: #283593;
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px; }
+  footer .social-icon img {
+    height: 40px; }
