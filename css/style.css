@@ -2,8 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("http://fonts.googleapis.com/css?family=Droid Sans");
-@import url("http://fonts.googleapis.com/css?family=Droid Sans");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -230,7 +228,8 @@ body .news-container .news .box1, body .news-container .news .box2 {
   background-color: #F2F4F4;
   box-shadow: #D5D8DC 10px 10px; }
 
-body { }
+body {
+  font-family: "Raleway"; }
   body header {
     width: 100%; }
     body header .sticky {
@@ -450,27 +449,32 @@ body .news-container .news {
   body .news-container .news .box1 {
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding-left: 10px; }
     body .news-container .news .box1 .h6-p h6 {
       font-size: 34px;
       font-weight: 600;
       color: #4A4A5E;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      padding-top: 10px; }
     body .news-container .news .box1 .h6-p p {
       font-size: 20px;
       font-weight: 500;
       color: #4A4A5E;
       text-align: justify;
-      line-height: 1.5; }
+      line-height: 1.5;
+      padding-right: 10px; }
   body .news-container .news .box2 {
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding-right: 10px; }
     body .news-container .news .box2 .h6-p h6 {
       font-size: 34px;
       font-weight: 600;
       color: #4A4A5E;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      padding-top: 10px; }
     body .news-container .news .box2 .h6-p p {
       font-size: 20px;
       font-weight: 500;
@@ -640,7 +644,8 @@ body .news-container .news .box1, body .news-container .news .box2 {
   background-color: #F2F4F4;
   box-shadow: #D5D8DC 10px 10px; }
 
-body { }
+body {
+  font-family: "Raleway"; }
   body header {
     width: 100%; }
     body header .sticky {
