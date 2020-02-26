@@ -399,12 +399,12 @@ footer .social-icon {
       font-weight: 600; }
 
 body .section-slider .closure-h5 {
-  font-size: 32px;
+  font-size: 34px;
   margin-bottom: 20px;
   color: #fff; }
 
 body .section-slider .closure-p {
-  font-size: 16px;
+  font-size: 20px;
   color: #fff; }
 
 body .container-margin {
@@ -426,7 +426,7 @@ body .container-margin {
       body .container-margin .circles .circle-top .circle-h6 {
         font-size: 28px;
         text-align: center;
-        font-size: 20px;
+        font-size: 28px;
         font-weight: 400;
         color: #4A4A5E;
         margin-top: 20px;
@@ -434,9 +434,9 @@ body .container-margin {
       body .container-margin .circles .circle-top .circle-p {
         font-size: 16px;
         text-align: center;
-        font-size: 16px;
         font-weight: 400;
-        color: #4A4A5E; }
+        color: #4A4A5E;
+        line-height: 1.5; }
     body .container-margin .circles:after {
       display: block;
       content: "";
@@ -452,7 +452,7 @@ body .news-container .news {
     align-items: center;
     margin-bottom: 50px; }
     body .news-container .news .box1 .h6-p h6 {
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 600;
       color: #4A4A5E;
       margin-bottom: 20px; }
@@ -467,7 +467,7 @@ body .news-container .news {
     align-items: center;
     margin-bottom: 50px; }
     body .news-container .news .box2 .h6-p h6 {
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 600;
       color: #4A4A5E;
       margin-bottom: 20px; }

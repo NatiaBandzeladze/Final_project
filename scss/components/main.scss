@@ -18,7 +18,7 @@ body {
 
         .closure-p {
             @extend %background-slide;
-            font-size: $font-size-medium;
+            font-size: $font-size-mediumbig;
             color: #fff;
         }
 
@@ -50,7 +50,7 @@ body {
                 .circle-h6 {
                     font-size: $font-size-bigger;
                     text-align: center;
-                    font-size: $font-size-mediumbig;
+                    font-size: $font-size-bigger;
                     font-weight: 400;
                     color: #4A4A5E;
                     margin-top: $margin-top20;
@@ -60,9 +60,9 @@ body {
                 .circle-p {
                     font-size: $font-size-medium;
                     text-align: center;
-                    font-size: $font-size-medium;
                     font-weight: 400;
                     color: #4A4A5E;
+                    line-height: 1.5;
                 }
             }
             &:after {
