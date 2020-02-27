@@ -17,6 +17,30 @@ body{
         .compare{
             @extend %flex;
             @include d-flex (space-around,center);
+            .before{
+                h5{
+                    font-size: $font-size-medium;
+                    font-weight: 600;
+                    margin: 5px 0;
+                }
+            }
+            .after{
+                h5{
+                    font-size: $font-size-medium;
+                    font-weight: 600;
+                    margin: 5px 0;
+                }
+            }
+        }
+        &:after {
+            display: block;
+            content: "";
+            height: 3px;
+            width: 80%;
+            background: #283593;
+            opacity: 0.5;
+            margin: 20px auto;
+
         }
     }
     .videos{
@@ -30,7 +54,7 @@ body{
 @media screen and (max-width:1040px){
     .compare{
         flex-direction: column;
-        margin: 15px;
+        margin: 0 15px;
         img{
             width: 100%;
         }

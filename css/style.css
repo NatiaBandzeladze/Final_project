@@ -568,6 +568,22 @@ body {
     body .before-after .compare {
       justify-content: space-around;
       align-items: center; }
+      body .before-after .compare .before h5 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 5px 0; }
+      body .before-after .compare .after h5 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 5px 0; }
+    body .before-after:after {
+      display: block;
+      content: "";
+      height: 3px;
+      width: 80%;
+      background: #283593;
+      opacity: 0.5;
+      margin: 20px auto; }
   body .videos {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -576,7 +592,7 @@ body {
 @media screen and (max-width: 1040px) {
   .compare {
     flex-direction: column;
-    margin: 15px; }
+    margin: 0 15px; }
     .compare img {
       width: 100%; } }
 
