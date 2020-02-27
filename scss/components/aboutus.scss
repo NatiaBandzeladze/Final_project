@@ -1,0 +1,95 @@
+@import "../basic/reset.scss";
+@import "../modules/mixins.scss";
+@import "../modules/veriables.scss";
+@import "../modules/classes.scss";
+
+
+
+body {
+    font-family: "Raleway" !important;
+
+    .about-us {
+        .about {
+            @extend %flex;
+            @include d-flex (space-around, center);
+            @extend %news-box-background;
+            margin-top: $margin-top50;
+            .aboutus-h4{
+                font-size: $font-size-bigger;
+                font-weight: 600;
+                padding: 10px;
+            }
+            .aboutus-p{
+                font-size: $font-size-medium;
+                text-align: justify;
+                padding: 10px;
+            }
+        }
+
+        .we-do {
+            @extend %flex;
+            @include d-flex (space-around, center);
+            @extend %news-box-background;
+            margin-top: $margin-top50;
+            .aboutus-h4{
+                font-size: $font-size-bigger;
+                font-weight: 600;
+                padding: 10px;
+            }
+            .aboutus-p{
+                font-size: $font-size-medium;
+                text-align: justify;
+                padding: 10px;
+            }
+        }
+        .structure{
+            margin-top: $margin-top50;
+            margin-bottom: $margin-bottom50;
+            .aboutus-h4{
+                font-size: $font-size-bigger;
+                font-weight: 600;
+                padding: 10px;
+            }
+            img{
+                width: 100%;
+                border: #283593 2px solid;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:600px) {
+    .we-do {
+        flex-flow: row-reverse;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .we-do {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .h4-p {
+        width: 55%;
+    }
+
+    .about-img {
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    .h4-p {
+        width: 100%;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+}
