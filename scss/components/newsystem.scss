@@ -1,0 +1,38 @@
+@import "../basic/reset.scss";
+@import "../modules/mixins.scss";
+@import "../modules/veriables.scss";
+@import "../modules/classes.scss";
+
+body{
+    font-family: "Raleway" !important;
+    .before-after{
+        margin-bottom: $margin-bottom50;
+        .before-after-h4{
+            font-size: $font-size-bigger;
+            font-weight: 600;
+            text-align: center;
+            margin-top: $margin-top50;
+            margin-bottom: $margin-bottom50;
+        }
+        .compare{
+            @extend %flex;
+            @include d-flex (space-around,center);
+        }
+    }
+    .videos{
+        @extend %flex;
+        flex-wrap: wrap;
+        @include d-flex (space-around,center);
+    }
+}
+
+
+@media screen and (max-width:1040px){
+    .compare{
+        flex-direction: column;
+        margin: 15px;
+        img{
+            width: 100%;
+        }
+    }
+}

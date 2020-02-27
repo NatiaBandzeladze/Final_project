@@ -17,11 +17,11 @@ footer {
             @include d-flex (space-between, center);
             img {
                 height: 35px;
-            }
-            .back-top{
-                font-size: $font-size-medium;
-                color: #fff;
-                font-weight: 600;
+                .back-top{
+                    font-size: $font-size-medium;
+                    color: #fff;
+                    font-weight: 600;
+                }
             }
         }
     }
