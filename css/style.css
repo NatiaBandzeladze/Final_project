@@ -84,49 +84,6 @@ a {
 * {
   box-sizing: border-box; }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
-
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-a {
-  text-decoration: none; }
-
-* {
-  box-sizing: border-box; }
-
 body header .sticky {
   position: sticky;
   top: 0;
@@ -228,179 +185,175 @@ body .news-container .news .box1, body .news-container .news .box2 {
   background-color: #F2F4F4;
   box-shadow: #D5D8DC 10px 10px; }
 
-body {
-  font-family: "Raleway"; }
-  body header {
-    width: 100%; }
-    body header .sticky {
-      justify-content: flex-start;
-      align-items: center; }
-      body header .sticky img {
-        height: 50px; }
-      body header .sticky .navbar ul {
-        justify-content: space-between;
-        align-items: center; }
-      body header .sticky .navbar li {
-        margin-right: 20px; }
-        body header .sticky .navbar li:last-child {
-          margin-right: 0; }
-        body header .sticky .navbar li a {
-          color: #fff; }
-    body header .burger {
-      position: relative;
-      -moz-transition: height 0.5s linear;
-      -o-transition: height 0.5s linear;
-      -webkit-transition: height 0.5s linear;
-      transition: height 0.5s linear; }
-      body header .burger .responsive-logo {
-        position: absolute;
-        top: 5px;
-        right: 10px;
-        height: 50px; }
-      body header .burger .burger-container {
-        display: inline-block;
-        cursor: pointer;
-        margin-left: 10px;
-        margin-top: 5px; }
-        body header .burger .burger-container .navbar-small {
-          height: 1px;
-          overflow: hidden;
-          -moz-transition: height 0.5s linear;
-          -o-transition: height 0.5s linear;
-          -webkit-transition: height 0.5s linear;
-          transition: height 0.5s linear; }
-          body header .burger .burger-container .navbar-small ul {
-            z-index: 21;
-            flex-flow: column;
-            justify-content: center;
-            align-items: center; }
-            body header .burger .burger-container .navbar-small ul li {
-              margin-bottom: 5px; }
-              body header .burger .burger-container .navbar-small ul li .nav-small-li {
-                color: #fff;
-                font-weight: 600;
-                text-align: justify; }
-              body header .burger .burger-container .navbar-small ul li:last-child {
-                margin-bottom: 0; }
-        body header .burger .burger-container .bar1,
-        body header .burger .burger-container .bar2,
-        body header .burger .burger-container .bar3 {
-          width: 35px;
-          height: 5px;
-          background-color: #fff;
-          margin: 6px 0;
-          transition: 0.4s; }
-      body header .burger .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        -ms-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-9px, 6px); }
-      body header .burger .change .bar2 {
-        opacity: 0; }
-      body header .burger .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        -ms-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px); }
-    @media screen and (min-width: 600px) {
-      body header .sticky {
-        display: flex; } }
-    @media screen and (max-width: 600px) {
-      body header .sticky {
-        display: none; } }
-    @media screen and (min-width: 600px) {
-      body header .burger {
-        display: none; } }
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
-
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-a {
-  text-decoration: none; }
-
-* {
-  box-sizing: border-box; }
-
-body header .sticky {
-  position: sticky;
-  top: 0;
-  height: 60px;
-  background-color: #283593;
-  padding: 14px 1px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 600; }
-
-body header .burger {
-  background-color: #283593;
-  height: 60px; }
-
-body header .sticky .navbar ul, body header .burger .burger-container .navbar-small ul, footer .social-icon .a-tags, body .container-margin .circles, body .container-margin .circles .circle-top, body .news-container .news .box1, body .news-container .news .box2 {
-  display: flex; }
-
-body .section-slider .closure-h5, body .section-slider .closure-p {
-  background-color: #283593;
-  max-width: fit-content;
-  opacity: 0.8; }
-
-body header .burger .burger-container .navbar-small {
-  background-color: #2D6194; }
-
-body .news-container .news .box1, body .news-container .news .box2 {
-  background-color: #F2F4F4;
-  box-shadow: #D5D8DC 10px 10px; }
-
-footer {
-  font-family: "Raleway"; }
-  footer .social-icon {
-    background-color: #283593;
-    width: 100%;
-    height: 50px;
-    padding: 5px 10px; }
-    footer .social-icon .a-tags {
+body header {
+  width: 100%; }
+  body header .sticky {
+    justify-content: flex-start;
+    align-items: center; }
+    body header .sticky img {
+      height: 50px; }
+    body header .sticky .navbar ul {
       justify-content: space-between;
       align-items: center; }
-      footer .social-icon .a-tags img {
-        height: 35px; }
-      footer .social-icon .a-tags .back-top {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 600; }
+    body header .sticky .navbar li {
+      margin-right: 20px; }
+      body header .sticky .navbar li:last-child {
+        margin-right: 0; }
+      body header .sticky .navbar li a {
+        color: #fff; }
+  body header .burger {
+    position: relative;
+    -moz-transition: height 0.5s linear;
+    -o-transition: height 0.5s linear;
+    -webkit-transition: height 0.5s linear;
+    transition: height 0.5s linear; }
+    body header .burger .responsive-logo {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      height: 50px; }
+    body header .burger .burger-container {
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-top: 5px; }
+      body header .burger .burger-container .navbar-small {
+        height: 1px;
+        overflow: hidden;
+        -moz-transition: height 0.5s linear;
+        -o-transition: height 0.5s linear;
+        -webkit-transition: height 0.5s linear;
+        transition: height 0.5s linear; }
+        body header .burger .burger-container .navbar-small ul {
+          z-index: 21;
+          flex-flow: column;
+          justify-content: center;
+          align-items: center; }
+          body header .burger .burger-container .navbar-small ul li {
+            margin-bottom: 5px; }
+            body header .burger .burger-container .navbar-small ul li .nav-small-li {
+              color: #fff;
+              font-weight: 600;
+              text-align: justify; }
+            body header .burger .burger-container .navbar-small ul li:last-child {
+              margin-bottom: 0; }
+      body header .burger .burger-container .bar1,
+      body header .burger .burger-container .bar2,
+      body header .burger .burger-container .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: 0.4s; }
+    body header .burger .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      -ms-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px); }
+    body header .burger .change .bar2 {
+      opacity: 0; }
+    body header .burger .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      -ms-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px); }
+  @media screen and (min-width: 600px) {
+    body header .sticky {
+      display: flex; } }
+  @media screen and (max-width: 600px) {
+    body header .sticky {
+      display: none; } }
+  @media screen and (min-width: 600px) {
+    body header .burger {
+      display: none; } }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
 
 body {
-  font-family: "Raleway"; }
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+body header .sticky {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background-color: #283593;
+  padding: 14px 1px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600; }
+
+body header .burger {
+  background-color: #283593;
+  height: 60px; }
+
+body header .sticky .navbar ul, body header .burger .burger-container .navbar-small ul, footer .social-icon .a-tags, body .container-margin .circles, body .container-margin .circles .circle-top, body .news-container .news .box1, body .news-container .news .box2 {
+  display: flex; }
+
+body .section-slider .closure-h5, body .section-slider .closure-p {
+  background-color: #283593;
+  max-width: fit-content;
+  opacity: 0.8; }
+
+body header .burger .burger-container .navbar-small {
+  background-color: #2D6194; }
+
+body .news-container .news .box1, body .news-container .news .box2 {
+  background-color: #F2F4F4;
+  box-shadow: #D5D8DC 10px 10px; }
+
+footer .social-icon {
+  background-color: #283593;
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px; }
+  footer .social-icon .a-tags {
+    justify-content: space-between;
+    align-items: center; }
+    footer .social-icon .a-tags img {
+      height: 35px; }
+    footer .social-icon .a-tags .back-top {
+      font-size: 16px;
+      color: #fff;
+      font-weight: 600; }
+
+body {
+  font-family: "Raleway" !important; }
   body .section-slider {
     width: 100%; }
     body .section-slider .closure-h5 {
@@ -649,87 +602,85 @@ body .news-container .news .box1, body .news-container .news .box2 {
   background-color: #F2F4F4;
   box-shadow: #D5D8DC 10px 10px; }
 
-body {
-  font-family: "Raleway"; }
-  body header {
-    width: 100%; }
-    body header .sticky {
-      justify-content: flex-start;
+body header {
+  width: 100%; }
+  body header .sticky {
+    justify-content: flex-start;
+    align-items: center; }
+    body header .sticky img {
+      height: 50px; }
+    body header .sticky .navbar ul {
+      justify-content: space-between;
       align-items: center; }
-      body header .sticky img {
-        height: 50px; }
-      body header .sticky .navbar ul {
-        justify-content: space-between;
-        align-items: center; }
-      body header .sticky .navbar li {
-        margin-right: 20px; }
-        body header .sticky .navbar li:last-child {
-          margin-right: 0; }
-        body header .sticky .navbar li a {
-          color: #fff; }
+    body header .sticky .navbar li {
+      margin-right: 20px; }
+      body header .sticky .navbar li:last-child {
+        margin-right: 0; }
+      body header .sticky .navbar li a {
+        color: #fff; }
+  body header .burger {
+    position: relative;
+    -moz-transition: height 0.5s linear;
+    -o-transition: height 0.5s linear;
+    -webkit-transition: height 0.5s linear;
+    transition: height 0.5s linear; }
+    body header .burger .responsive-logo {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      height: 50px; }
+    body header .burger .burger-container {
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-top: 5px; }
+      body header .burger .burger-container .navbar-small {
+        height: 1px;
+        overflow: hidden;
+        -moz-transition: height 0.5s linear;
+        -o-transition: height 0.5s linear;
+        -webkit-transition: height 0.5s linear;
+        transition: height 0.5s linear; }
+        body header .burger .burger-container .navbar-small ul {
+          z-index: 21;
+          flex-flow: column;
+          justify-content: center;
+          align-items: center; }
+          body header .burger .burger-container .navbar-small ul li {
+            margin-bottom: 5px; }
+            body header .burger .burger-container .navbar-small ul li .nav-small-li {
+              color: #fff;
+              font-weight: 600;
+              text-align: justify; }
+            body header .burger .burger-container .navbar-small ul li:last-child {
+              margin-bottom: 0; }
+      body header .burger .burger-container .bar1,
+      body header .burger .burger-container .bar2,
+      body header .burger .burger-container .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: 0.4s; }
+    body header .burger .change .bar1 {
+      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+      -ms-transform: rotate(-45deg) translate(-9px, 6px);
+      transform: rotate(-45deg) translate(-9px, 6px); }
+    body header .burger .change .bar2 {
+      opacity: 0; }
+    body header .burger .change .bar3 {
+      -webkit-transform: rotate(45deg) translate(-8px, -8px);
+      -ms-transform: rotate(45deg) translate(-8px, -8px);
+      transform: rotate(45deg) translate(-8px, -8px); }
+  @media screen and (min-width: 600px) {
+    body header .sticky {
+      display: flex; } }
+  @media screen and (max-width: 600px) {
+    body header .sticky {
+      display: none; } }
+  @media screen and (min-width: 600px) {
     body header .burger {
-      position: relative;
-      -moz-transition: height 0.5s linear;
-      -o-transition: height 0.5s linear;
-      -webkit-transition: height 0.5s linear;
-      transition: height 0.5s linear; }
-      body header .burger .responsive-logo {
-        position: absolute;
-        top: 5px;
-        right: 10px;
-        height: 50px; }
-      body header .burger .burger-container {
-        display: inline-block;
-        cursor: pointer;
-        margin-left: 10px;
-        margin-top: 5px; }
-        body header .burger .burger-container .navbar-small {
-          height: 1px;
-          overflow: hidden;
-          -moz-transition: height 0.5s linear;
-          -o-transition: height 0.5s linear;
-          -webkit-transition: height 0.5s linear;
-          transition: height 0.5s linear; }
-          body header .burger .burger-container .navbar-small ul {
-            z-index: 21;
-            flex-flow: column;
-            justify-content: center;
-            align-items: center; }
-            body header .burger .burger-container .navbar-small ul li {
-              margin-bottom: 5px; }
-              body header .burger .burger-container .navbar-small ul li .nav-small-li {
-                color: #fff;
-                font-weight: 600;
-                text-align: justify; }
-              body header .burger .burger-container .navbar-small ul li:last-child {
-                margin-bottom: 0; }
-        body header .burger .burger-container .bar1,
-        body header .burger .burger-container .bar2,
-        body header .burger .burger-container .bar3 {
-          width: 35px;
-          height: 5px;
-          background-color: #fff;
-          margin: 6px 0;
-          transition: 0.4s; }
-      body header .burger .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        -ms-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-9px, 6px); }
-      body header .burger .change .bar2 {
-        opacity: 0; }
-      body header .burger .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        -ms-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px); }
-    @media screen and (min-width: 600px) {
-      body header .sticky {
-        display: flex; } }
-    @media screen and (max-width: 600px) {
-      body header .sticky {
-        display: none; } }
-    @media screen and (min-width: 600px) {
-      body header .burger {
-        display: none; } }
+      display: none; } }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -803,19 +754,17 @@ body .news-container .news .box1, body .news-container .news .box2 {
   background-color: #F2F4F4;
   box-shadow: #D5D8DC 10px 10px; }
 
-footer {
-  font-family: "Raleway"; }
-  footer .social-icon {
-    background-color: #283593;
-    width: 100%;
-    height: 50px;
-    padding: 5px 10px; }
-    footer .social-icon .a-tags {
-      justify-content: space-between;
-      align-items: center; }
-      footer .social-icon .a-tags img {
-        height: 35px; }
-      footer .social-icon .a-tags .back-top {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 600; }
+footer .social-icon {
+  background-color: #283593;
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px; }
+  footer .social-icon .a-tags {
+    justify-content: space-between;
+    align-items: center; }
+    footer .social-icon .a-tags img {
+      height: 35px; }
+    footer .social-icon .a-tags .back-top {
+      font-size: 16px;
+      color: #fff;
+      font-weight: 600; }
