@@ -6,17 +6,31 @@
 
 body {
     font-family: "Raleway" !important;
-    .contact-container{
-        @extend %flex;
-        @include d-flex (space-between);
-        .contact-info{
-            width:46%;
-        }
-        .google-map{
-            width: 46%;
+
+    section {
+        .contact-box {
+            .contact-info {
+
+                max-width: 100%;
+
+                h5 {
+                    font-size: $font-sizebigger;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: $font-sizemedium;
+                    font-weight: 500;
+                }
+            }
+
+            .google-map {
+                margin-top: $margin-top50;
+                max-width: 100%;
+            }
+
         }
 
+
     }
-    
-     
 }

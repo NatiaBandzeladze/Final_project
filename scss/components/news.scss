@@ -15,7 +15,7 @@ body {
             .small-box-news{
                 @extend %flex;
                 flex-direction: column;
-               width: 30%;
+                width: 30%;
                .newss{
                    h6{
                        font-size: $font-size-medium;
@@ -31,13 +31,13 @@ body {
 
 
 
-@media screen and (min-width:600px){
-    .small-box-news{
-        width:30%;
-        .newss{
-            img{
-                width:100%;
-            }
-        }
-    }
-}
+// @media screen and (min-width:600px){
+//     .small-box-news{
+//         width:30%;
+//         .newss{
+//             img{
+//                 width:100%;
+//             }
+//         }
+//     }
+// }

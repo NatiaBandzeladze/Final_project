@@ -686,12 +686,6 @@ body {
       body .news-boxes .small-box-news .newss img {
         width: 100%; }
 
-@media screen and (min-width: 600px) {
-  .small-box-news {
-    width: 30%; }
-    .small-box-news .newss img {
-      width: 100%; } }
-
 body {
   font-family: "Raleway" !important; }
   body .section-slider {
@@ -1442,9 +1436,3 @@ body {
         font-weight: 600; }
       body .news-boxes .small-box-news .newss img {
         width: 100%; }
-
-@media screen and (min-width: 600px) {
-  .small-box-news {
-    width: 30%; }
-    .small-box-news .newss img {
-      width: 100%; } }
