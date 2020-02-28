@@ -17,3 +17,16 @@ body {
         }
     }
 }
+
+
+
+@media screen and (min-width:600px){
+    .small-box-news{
+        width:30%;
+        .newss{
+            img{
+                width:100%;
+            }
+        }
+    }
+}
