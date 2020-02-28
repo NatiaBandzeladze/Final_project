@@ -672,9 +672,17 @@ body {
   font-family: "Raleway" !important; }
   body .news-boxes {
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
     body .news-boxes .small-box-news {
-      flex-direction: column; }
+      flex-direction: column;
+      width: 30%; }
+      body .news-boxes .small-box-news .newss h6 {
+        font-size: 16px;
+        font-weight: 600; }
+      body .news-boxes .small-box-news .newss img {
+        width: 100%; }
 
 @media screen and (min-width: 600px) {
   .small-box-news {
@@ -1419,9 +1427,17 @@ body {
   font-family: "Raleway" !important; }
   body .news-boxes {
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
     body .news-boxes .small-box-news {
-      flex-direction: column; }
+      flex-direction: column;
+      width: 30%; }
+      body .news-boxes .small-box-news .newss h6 {
+        font-size: 16px;
+        font-weight: 600; }
+      body .news-boxes .small-box-news .newss img {
+        width: 100%; }
 
 @media screen and (min-width: 600px) {
   .small-box-news {

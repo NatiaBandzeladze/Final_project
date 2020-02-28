@@ -9,11 +9,22 @@ body {
         .news-boxes {
             @extend %flex;
             @include d-flex (space-around, center);
+            margin-top: $margin-top50;
+            margin-bottom: $margin-bottom50;
 
             .small-box-news{
                 @extend %flex;
                 flex-direction: column;
-               
+               width: 30%;
+               .newss{
+                   h6{
+                       font-size: $font-size-medium;
+                       font-weight: 600;
+                   }
+                   img{
+                       width:100%;
+                   }
+               }
         }
     }
 }
