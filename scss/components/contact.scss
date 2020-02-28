@@ -1,0 +1,21 @@
+@import "../basic/reset.scss";
+@import "../modules/mixins.scss";
+@import "../modules/veriables.scss";
+@import "../modules/classes.scss";
+
+
+body {
+    font-family: "Raleway" !important;
+    .contact-container{
+        @extend %flex;
+        @include d-flex (space-between);
+        .contact-info{
+            width:46%;
+        }
+        .contact-box{
+            width: 46%;
+        }
+
+    }
+     
+}
