@@ -338,6 +338,8 @@ body .about-us .about, body .about-us .we-do, body .news-container .news .box1, 
   box-shadow: #D5D8DC 10px 10px; }
 
 footer .social-icon {
+  position: fixed;
+  bottom: 0;
   background-color: #283593;
   width: 100%;
   height: 50px;
@@ -345,12 +347,12 @@ footer .social-icon {
   footer .social-icon .a-tags {
     justify-content: space-between;
     align-items: center; }
-    footer .social-icon .a-tags img {
+    footer .social-icon .a-tags .footer-img {
       height: 35px; }
-      footer .social-icon .a-tags img .back-top {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 600; }
+    footer .social-icon .a-tags .back-top {
+      font-size: 16px;
+      color: #fff;
+      font-weight: 600; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1093,6 +1095,8 @@ body .about-us .about, body .about-us .we-do, body .news-container .news .box1, 
   box-shadow: #D5D8DC 10px 10px; }
 
 footer .social-icon {
+  position: fixed;
+  bottom: 0;
   background-color: #283593;
   width: 100%;
   height: 50px;
@@ -1100,12 +1104,12 @@ footer .social-icon {
   footer .social-icon .a-tags {
     justify-content: space-between;
     align-items: center; }
-    footer .social-icon .a-tags img {
+    footer .social-icon .a-tags .footer-img {
       height: 35px; }
-      footer .social-icon .a-tags img .back-top {
-        font-size: 16px;
-        color: #fff;
-        font-weight: 600; }
+    footer .social-icon .a-tags .back-top {
+      font-size: 16px;
+      color: #fff;
+      font-weight: 600; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
