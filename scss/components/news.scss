@@ -1,0 +1,19 @@
+@import "../basic/reset.scss";
+@import "../modules/mixins.scss";
+@import "../modules/veriables.scss";
+@import "../modules/classes.scss";
+
+
+body {
+    font-family: "Raleway" !important;
+        .news-boxes {
+            @extend %flex;
+            @include d-flex (space-around, center);
+
+            .small-box-news{
+                @extend %flex;
+                flex-direction: column;
+               
+        }
+    }
+}
